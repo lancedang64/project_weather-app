@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'myfont';
+  src: url('./fonts/jmyfont.woff') format('woff'),
+    url('./fonts/myfont.eot') format('eot'),
+    url('./fonts/myfont.svg') format('svg');
+  font-style: normal;
+}
+
+/* COPYRIGHT */
+
