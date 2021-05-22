@@ -1,10 +1,7 @@
-# Project name [Live preview](https://lancedang64.github.io/project_name/)
+# Project Weather App [Live preview](https://lancedang64.github.io/project_weather-app/)
 
 ## Introduction
-Hi, in this project I built a 
-
-## Description
-
+Hi, in this project I built a weather app
 
 ## Knowledge and skills learnt and used
 - npm package manager
