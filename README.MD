@@ -4,13 +4,16 @@
 Hi, in this project I built a weather app
 
 ## Knowledge and skills learnt and used
-- npm package manager
-  - webpack module bundler
+- API
+  - using a public API
 
 - Javascript
-  - DOM manipulation
+  - async, await, promises
   - Using modules, import, export
-  - Event handlers
+  - DOM manipulation
+
+- npm package manager
+  - webpack module bundler
 
 - CSS
   - Styling

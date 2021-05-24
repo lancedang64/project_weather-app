@@ -8,9 +8,16 @@
 
 /* COPYRIGHT */
 
+.container-A {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
 .container-info {
   display: flex;
   text-align: center;
+  margin-top: 5%;
 }
 
 .info {

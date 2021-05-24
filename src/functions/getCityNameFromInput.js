@@ -1,5 +1,5 @@
 function getCityNameFromInput() {
-    return "Sydney"
+    return document.querySelector('#city-name').value;
 }
 
 export { getCityNameFromInput }
