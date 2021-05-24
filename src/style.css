@@ -8,25 +8,95 @@
 
 /* COPYRIGHT */
 
+.body {
+  font-family: sans-serif, Arial, Helvetica;
+  color: white;
+}
+
+html {
+  background-image: url('./images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .container-A {
   position: absolute;
-  top: 20%;
+  top: 30%;
   left: 10%;
+  height: 30%;
+  width: 50%;
+  color: white;
 }
+
+.container-search > input[type='text'] {
+  font-size: 1em;
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: white;
+  width: 30%;
+  margin-right: 3%;
+}
+
+.container-search > input[type='text']:focus {
+  outline: none;
+}
+
+.container-search > label {
+  border: 0.5px solid white;
+  padding: 0.5em;
+}
+
+input[type='radio'] {
+  display: none;
+}
+
+input[type='radio']:checked + label {
+  font-style: normal;
+  color: black;
+  background-color: rgb(226, 233, 253);
+}
+
 
 .container-info {
   display: flex;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 2%;
+  align-items: center;
 }
 
 .info {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  margin-right: 4%;
 }
 
-.degree {
+.city-name {
+  font-size: 4em;
+}
+
+.temp {
+  font-size: 6em;
+}
+
+.temp + .degree {
+  font-size: 3.5em;
   position: relative;
-  bottom: 20%;
-  right: 2%;
+  bottom: 0.5em;
+  right: 0.1em;
+}
+
+.temp-min + .degree,
+.temp-max + .degree {
+  position: relative;
+  bottom: 0.2em;
+  right: 0.2em;
+}
+
+.icon {
+  display: block;
+  height: 100%;
 }
