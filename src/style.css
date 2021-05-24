@@ -1,10 +1,25 @@
-@font-face {
+/* @font-face {
   font-family: 'myfont';
   src: url('./fonts/jmyfont.woff') format('woff'),
     url('./fonts/myfont.eot') format('eot'),
     url('./fonts/myfont.svg') format('svg');
   font-style: normal;
-}
+} */
 
 /* COPYRIGHT */
 
+.container-info {
+  display: flex;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.degree {
+  position: relative;
+  bottom: 20%;
+  right: 2%;
+}
